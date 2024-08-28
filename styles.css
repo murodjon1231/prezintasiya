@@ -615,12 +615,14 @@ nav ul li a:hover{
 .footer-content p:hover{
     color: #00c8ff;
 }
-@media (max-width: 768px) {
+@media (max-width: 368px) {
     .hero {
         flex-direction: column;
         text-align: center;
     }
-
+    .row{
+        display: none;
+    }
     .hero-content, .hero-image {
         max-width: 100%;
     }
@@ -644,8 +646,19 @@ nav ul li a:hover{
         display: none;
 
     }
+    .hero-image img{
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .container1{
+        flex-direction: column;
+    }
     .hero-content  h1{
         font-size: 42px;
+        width: 300px;
+        position: relative;
+        right: 50px;
     }
     .about-container {
         flex-direction: column;
